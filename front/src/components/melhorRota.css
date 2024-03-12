@@ -1,0 +1,35 @@
+dialog{
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+  border: 1px solid;
+  padding: 4px;
+  background-color: #c9c5c5;
+  width: 400px;  
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  scroll-behavior: auto;
+}
+
+.titleMelhorRota{
+  text-align: center;
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+.btnCancelar{
+  position: absolute;
+  top: 4;
+  left: 4;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.btnCancelar:hover{
+  color: red;
+}

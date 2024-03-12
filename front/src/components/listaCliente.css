@@ -1,0 +1,13 @@
+.listaClientes{
+  width: 400px;  
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  scroll-behavior: auto;
+}
+
+.cliente{
+  margin-top: 8px;
+  text-wrap: nowrap;
+}
+

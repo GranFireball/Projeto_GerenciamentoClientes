@@ -1,0 +1,63 @@
+.formContainer{
+  width: 280px;
+  border: 1px solid;
+  padding: 4px;
+  background-color: #c9c5c5;  
+  position: relative;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.formBtn{
+  margin-top: 16px;
+  width: 100px;
+}
+
+input{
+  margin-left: 4px;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.btnCancelar{
+  position: absolute;
+  top: 4;
+  left: 4;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.btnCancelar:hover{
+  color: red;
+}
+
+.btnConfirmar{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 4px 4px 0;
+  background-color: green;
+  color: white;
+}
+
+.btnConfirmar:hover{
+  background-color: #07de0a;
+}
